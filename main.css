@@ -1,0 +1,88 @@
+/*
+
+	Author: Kelly Ann McNamara;
+	Date Started: May 21st, 2017;
+	Project: J&F Equipment Sales;
+
+	_________________________________________________
+
+	INDEX
+	01. Attributes
+	00. ...
+	00. ...
+	00. ...
+	00. ...
+	00. ...
+	00. ...
+
+	_________________________________________________
+
+	COLOURS
+	white: #fff;
+	dark-grey: #231f20;
+	smoke: #f1f3f4;
+	mid-grey: #818285;
+	red: #a41e22;
+
+*/
+
+/* =============== 01. Attributes =============== */
+
+
+* {
+    margin: 0 auto;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    margin: 0 auto;
+    font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
+    text-rendering: geometricPrecision;
+}
+#sidebar {
+    float: left;
+    height: 100vh;
+    width: 160px;
+}
+#sidebar h1 {
+    font-size: .5em;
+    color: #fff;
+}
+#main {
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+    float: right;
+}
+.wrapper {
+    max-width: 1025px;
+    padding: 0px 30px;
+}
+#nav-logo {
+    background: #fff;
+    text-align: center;
+    padding: 45px 25px;
+}
+#nav-links {
+    background: #231f20;
+    height: calc(100vh - 166px);
+}
+#nav-links ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    padding-top: 60px;
+}
+#nav-links ul li a{
+    color: #f1f3f4;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 30px;
+}
