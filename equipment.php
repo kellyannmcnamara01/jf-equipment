@@ -14,10 +14,40 @@ include "head.php";
 <div id="construction-items">
     <div class="col-3">
         <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
         <div class="item-details">
+            <svg height="15" width="46" class="items-arrow-odd">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
+            <h3>Equipment Title Placement</h3>
+            <p>Make Company</p>
+            <p>Model of Vehicle</p>
+            <p>Year 2000</p>
+            <p>10,000 Miles</p>
+            <p>Other Stat</p>
+            <p>Other Stat</p>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="item-details">
+            <h3>Equipment Title Placement</h3>
+            <p>Make Company</p>
+            <p>Model of Vehicle</p>
+            <p>Year 2000</p>
+            <p>10,000 Miles</p>
+            <p>Other Stat</p>
+            <p>Other Stat</p>
+            <svg height="15" width="46" class="items-arrow-even">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
+        </div>
+        <img src="opt-imgs/for-sale-01.jpg">
+    </div>
+    <div class="col-3">
+        <img src="opt-imgs/for-sale-01.jpg">
+        <div class="item-details">
+            <svg height="15" width="46" class="items-arrow-odd">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
             <h3>Equipment Title Placement</h3>
             <p>Make Company</p>
             <p>Model of Vehicle</p>
@@ -29,10 +59,10 @@ include "head.php";
     </div>
     <div class="col-3">
         <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
         <div class="item-details">
+            <svg height="15" width="46" class="items-arrow-odd">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
             <h3>Equipment Title Placement</h3>
             <p>Make Company</p>
             <p>Model of Vehicle</p>
@@ -43,10 +73,6 @@ include "head.php";
         </div>
     </div>
     <div class="col-3">
-        <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
         <div class="item-details">
             <h3>Equipment Title Placement</h3>
             <p>Make Company</p>
@@ -55,44 +81,18 @@ include "head.php";
             <p>10,000 Miles</p>
             <p>Other Stat</p>
             <p>Other Stat</p>
+            <svg height="15" width="46" class="items-arrow-even">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
         </div>
+        <img src="opt-imgs/for-sale-01.jpg">
     </div>
     <div class="col-3">
         <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
         <div class="item-details">
-            <h3>Equipment Title Placement</h3>
-            <p>Make Company</p>
-            <p>Model of Vehicle</p>
-            <p>Year 2000</p>
-            <p>10,000 Miles</p>
-            <p>Other Stat</p>
-            <p>Other Stat</p>
-        </div>
-    </div>
-    <div class="col-3">
-        <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
-        <div class="item-details">
-            <h3>Equipment Title Placement</h3>
-            <p>Make Company</p>
-            <p>Model of Vehicle</p>
-            <p>Year 2000</p>
-            <p>10,000 Miles</p>
-            <p>Other Stat</p>
-            <p>Other Stat</p>
-        </div>
-    </div>
-    <div class="col-3">
-        <img src="opt-imgs/for-sale-01.jpg">
-        <svg height="15" width="46" class="items-arrow-odd">
-            <polygon points="23,0 0,15 46,15" style="fill:#fff" />
-        </svg>
-        <div class="item-details">
+            <svg height="15" width="46" class="items-arrow-odd">
+                <polygon points="23,0 0,15 46,15" style="fill:#fff" />
+            </svg>
             <h3>Equipment Title Placement</h3>
             <p>Make Company</p>
             <p>Model of Vehicle</p>

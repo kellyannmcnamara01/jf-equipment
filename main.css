@@ -90,6 +90,7 @@ h3 {
     color: #231f20;
     font-size: 1.6em;
     font-weight: 900;
+    padding-bottom: 15px;
 }
 p {
     color: #231f20;
@@ -337,11 +338,25 @@ footer p a:hover, footer p a:active, footer p a:focus {
 }
 
 /* =============== 00. Equipment Sales Page =============== */
+#construction {
+    background-image: url("opt-imgs/construction-bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 960px;
+    padding: 200px 0px 100px;
+}
+#construction h2, #construction p {
+    max-width: 400px;
+    margin-left: 0px;
+}
+#construction p {
+    font-weight: 700;
+}
 #construction-items {
-    max-width: 1400px;
+    max-width: 1000px;
 }
 #construction-items .col-3 {
-    position: relative;
     padding: 0;
 }
 #construction-items img {
@@ -349,13 +364,21 @@ footer p a:hover, footer p a:active, footer p a:focus {
 }
 .item-details {
     padding: 30px 20px;
+    height: 253px;
+    position: relative;
 }
 .items-arrow-odd {
-    /*-ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);*/
     position: absolute;
-    bottom: 201px;
+    /*bottom: 253px;*/
+    top: -16px;
+    left: calc(50% - 23px);
+}
+.items-arrow-even {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    top: 253px;
     left: calc(50% - 23px);
 }
 
