@@ -95,9 +95,22 @@ main {
 #nav-social {
     text-align: center;
 }
-#nav-social img {
+#nav-social svg {
     margin-right: 10px;
     margin-top: 21px;
+    height: 15px;
+}
+#nav-social #fb {
+    height: 17px;
+}
+#nav-social .icon-fill {
+    transition: 1s ease all;
+}
+#nav-social svg:hover, #nav-social svg:active, #nav-social svg:focus {
+    outline: none;
+}
+#nav-social .icon-fill:hover, #nav-social .icon-fill:active, #nav-social .icon-fill:focus {
+    fill: #818285;
 }
 #opening {
     background: #f1f3f4;
