@@ -63,7 +63,6 @@ main {
     margin: 0 auto;
     position: relative;
     float: left;
-    background: yellow;
     width: calc(100vw - 160px);
     margin-left: 160px;
 }
@@ -146,4 +145,17 @@ main {
 }
 footer {
     width: 100%;
+    background: #818285;
+}
+footer h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+footer p a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
