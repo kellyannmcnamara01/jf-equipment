@@ -112,14 +112,10 @@ main {
     font-weight: 900;
     line-height: 75px;
     max-width: 433px;
-    /*padding-top: calc(50% - 490px);*/
     padding-top: 153px;
     margin-left: 15%;
 }
 #opening img {
-    /*position: absolute;
-    right: 0;
-    top: 177px;*/
     margin-top: -200px;
     margin-left: 150px;
     max-width: 1000px;
