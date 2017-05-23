@@ -65,6 +65,7 @@ main {
     float: left;
     width: calc(100vw - 160px);
     margin-left: 160px;
+    background: #f1f3f4;
 }
 .wrapper {
     max-width: 1025px;
