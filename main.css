@@ -285,6 +285,20 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-repeat: no-repeat;
     padding: 220px 20px 55px;
 }
+#personal {
+    background-image: url("opt-imgs/personal-bg.png");
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 135px 20px 155px;
+}
+#customer {
+    background-image: url("opt-imgs/customer-bg.png");
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 135px 20px 155px;
+}
 #family-owned h2, #personal h2, #customer h2 {
     color: #231f20;
     font-size: 4em;
