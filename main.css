@@ -92,7 +92,12 @@ p {
     font-weight: 400;
     line-height: 20px;
 }
-
+.col-3 {
+    width: 33.333%;
+    float: left;
+    background: #fff;
+    padding: 50px 20px 35px;
+}
 /* =============== 02. Nav =============== */
 
 #nav-logo {
@@ -173,17 +178,13 @@ p {
 #col-content {
     max-width: 1400px;
 }
-.col-3 {
-    width: 33.333%;
-    float: left;
-    background: #fff;
-    padding: 50px 20px 35px;
+#three-callouts .col-3 {
     min-height: 205px;
 }
-.col-3:nth-child(2) {
+#three-callouts .col-3:nth-child(2) {
     background: #ecedee;
 }
-.col-3 p {
+#three-callouts .col-3 p {
     max-width: 360px;
 }
 
@@ -341,7 +342,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
 /* =============== 00. Media Query =============== */
 
 @media screen and (max-width: 1104px) {
-    .col-3 {
+    #three-callouts .col-3 {
         min-height: 245px;
     }
 }
@@ -355,7 +356,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
         margin-top: -135px;
         margin-left: 115px;
     }
-    .col-3 {
+    #three-callouts .col-3 {
         min-height: 300px;
     }
 }
@@ -363,7 +364,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     #opening img {
         margin-top: -100px;
     }
-    .col-3 {
+    #three-callouts .col-3 {
         width: 100%;
         height: auto;
         min-height: inherit;
