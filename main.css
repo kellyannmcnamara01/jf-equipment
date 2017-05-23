@@ -330,6 +330,14 @@ footer p a:hover, footer p a:active, footer p a:focus {
     max-width: 960px;
 }
 
+/* =============== 00. Equipment Sales Page =============== */
+
+.items-arrow:nth-child(even) {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
 /* =============== 00. Media Query =============== */
 
 @media screen and (max-width: 1104px) {
