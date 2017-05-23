@@ -279,11 +279,12 @@ footer p a:hover, footer p a:active, footer p a:focus {
 /* =============== 00. Family Owned =============== */
 
 #family-owned {
-    background-image: url("opt-imgs/family-bg.png");
+    background-image: url("opt-imgs/family-bg2.png");
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
     padding: 220px 20px 55px;
+    max-width: 1000px;
 }
 #personal {
     background-image: url("opt-imgs/personal-bg.png");
@@ -291,6 +292,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-position: left;
     background-repeat: no-repeat;
     padding: 135px 20px 155px;
+    max-width: 1000px;
 }
 #customer {
     background-image: url("opt-imgs/customer-bg.png");
@@ -298,6 +300,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-position: right;
     background-repeat: no-repeat;
     padding: 135px 20px 155px;
+    max-width: 1000px;
 }
 #family-owned h2, #personal h2, #customer h2 {
     color: #231f20;
@@ -312,6 +315,9 @@ footer p a:hover, footer p a:active, footer p a:focus {
 #personal h2, #personal p {
     max-width: 400px;
     margin-right: 0px;
+}
+.about-content {
+    max-width: 960px;
 }
 
 /* =============== 00. Media Query =============== */
