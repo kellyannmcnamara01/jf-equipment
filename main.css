@@ -79,6 +79,13 @@ main {
     max-width: 1025px;
     padding: 0px 30px;
 }
+h2 {
+    color: #231f20;
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
 p {
     color: #231f20;
     font-size: 1.4em;
@@ -307,13 +314,6 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-repeat: no-repeat;
     padding: 125px 20px 200px;
     max-width: 925px;
-}
-#family-owned h2, #personal h2, #customer h2 {
-    color: #231f20;
-    font-size: 4em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-bottom: 30px;
 }
 #family-owned h2, #family-owned p, #customer h2, #customer p {
     max-width: 400px;
