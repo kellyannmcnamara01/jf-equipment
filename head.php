@@ -24,7 +24,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="">Used Equipment</a></li>
+                <li><a href="equipment.php">Used Equipment</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             <div id="nav-social">
