@@ -163,7 +163,7 @@ p {
 
 /* =============== 04. Home Page Callouts =============== */
 
-#col-content, #footer-content {
+#col-content {
     max-width: 1400px;
 }
 .col-3 {
@@ -201,10 +201,14 @@ footer p a {
     letter-spacing: 1px;
     text-decoration: none;
     line-height: 18px;
+    transition: .25s ease all;
 }
 footer p a:hover, footer p a:active, footer p a:focus {
     outline: none;
     color: #a41e22;
+}
+#footer-content {
+    max-width: 1000px;
 }
 
 #contact-info, #contact-form {
@@ -301,7 +305,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 150px 20px 200px;
+    padding: 125px 20px 200px;
     max-width: 925px;
 }
 #family-owned h2, #personal h2, #customer h2 {
@@ -309,6 +313,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     font-size: 4em;
     font-weight: 900;
     text-transform: uppercase;
+    padding-bottom: 30px;
 }
 #family-owned h2, #family-owned p, #customer h2, #customer p {
     max-width: 400px;
@@ -317,6 +322,9 @@ footer p a:hover, footer p a:active, footer p a:focus {
 #personal h2, #personal p {
     max-width: 400px;
     margin-right: 0px;
+}
+#family-owned p, #personal p, #customer p {
+    font-weight: 700;
 }
 .about-content {
     max-width: 960px;
