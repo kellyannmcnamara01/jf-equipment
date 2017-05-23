@@ -124,6 +124,26 @@ main {
     margin-left: 150px;
     max-width: 1000px;
 }
+#three-callouts {
+
+}
+.col-3 {
+    width: 33.333%;
+    float: left;
+    background: #fff;
+    padding: 50px 20px 35px;
+    min-height: 265px;
+}
+.col-3:nth-child(2) {
+    background: #f9fafb;
+}
+.col-3 p {
+    max-width: 250px;
+    color: #231f20;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 22px;
+}
 footer {
     width: 100%;
 }
