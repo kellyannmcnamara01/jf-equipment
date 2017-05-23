@@ -8,6 +8,14 @@
 
 	INDEX
 	01. Attributes
+	02. Nav
+	03. Opening
+	04. Home Page Callouts
+	05. Footer
+	00. ...
+	00. ...
+	00. ...
+	00. ...
 	00. ...
 	00. ...
 	00. ...
@@ -71,6 +79,15 @@ main {
     max-width: 1025px;
     padding: 0px 30px;
 }
+p {
+    color: #231f20;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* =============== 02. Nav =============== */
+
 #nav-logo {
     background: #fff;
     text-align: center;
@@ -118,6 +135,9 @@ main {
 #nav-social .icon-fill:hover, #nav-social .icon-fill:active, #nav-social .icon-fill:focus {
     fill: #818285;
 }
+
+/* =============== 03. Opening =============== */
+
 #opening {
     background: #f1f3f4;
     height: 100vh;
@@ -140,6 +160,9 @@ main {
     max-width: 1000px;
     transition: .5s ease all;
 }
+
+/* =============== 04. Home Page Callouts =============== */
+
 #col-content, #footer-content {
     max-width: 1400px;
 }
@@ -155,11 +178,10 @@ main {
 }
 .col-3 p {
     max-width: 360px;
-    color: #231f20;
-    font-size: 1.4em;
-    font-weight: 400;
-    line-height: 20px;
 }
+
+/* =============== 05. Footer =============== */
+
 footer {
     width: 100%;
     background: #818285;
@@ -253,6 +275,33 @@ footer p a:hover, footer p a:active, footer p a:focus {
     box-shadow: inset #a41e22 0px -4px 0px 0px;
     color: #a41e22;
 }
+
+/* =============== 00. Family Owned =============== */
+
+#family-owned {
+    background-image: url("opt-imgs/family-bg.png");
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 220px 20px 55px;
+}
+#family-owned h2, #personal h2, #customer h2 {
+    color: #231f20;
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#family-owned h2, #family-owned p, #customer h2, #customer p {
+    max-width: 400px;
+    margin-left: 0px;
+}
+#personal h2, #personal p {
+    max-width: 400px;
+    margin-right: 0px;
+}
+
+/* =============== 00. Media Query =============== */
+
 @media screen and (max-width: 1104px) {
     .col-3 {
         min-height: 245px;
