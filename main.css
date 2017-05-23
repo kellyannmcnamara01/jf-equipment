@@ -283,8 +283,9 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 220px 20px 55px;
-    max-width: 1000px;
+    padding: 115px 20px 55px;
+    max-width: 925px;
+    margin-top: 105px;
 }
 #personal {
     background-image: url("opt-imgs/personal-bg.png");
@@ -292,15 +293,16 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-position: left;
     background-repeat: no-repeat;
     padding: 135px 20px 155px;
-    max-width: 1000px;
+    max-width: 925px;
+    margin-top: 50px;
 }
 #customer {
     background-image: url("opt-imgs/customer-bg.png");
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 135px 20px 155px;
-    max-width: 1000px;
+    padding: 150px 20px 200px;
+    max-width: 925px;
 }
 #family-owned h2, #personal h2, #customer h2 {
     color: #231f20;
