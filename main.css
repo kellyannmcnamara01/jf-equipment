@@ -338,7 +338,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
 }
 
 /* =============== 00. Equipment Sales Page =============== */
-#construction, #trailers {
+#construction, #trailers, #lifts {
     background-image: url("opt-imgs/construction-bg.png");
     background-size: auto;
     background-repeat: no-repeat;
@@ -352,20 +352,25 @@ footer p a:hover, footer p a:active, footer p a:focus {
     padding: 200px 0px 135px;
     margin-bottom: -40px;
 }
-#construction h2, #construction p, #trailers h2, #trailers p {
+#lifts {
+    background-image: url("opt-imgs/lifting-bg.png");
+    background-position: 90% bottom;
+    padding: 200px 0px 100px;
+}
+#construction h2, #construction p, #trailers h2, #trailers p, #lifts h2, #lifts p {
     max-width: 400px;
     margin-left: 0px;
 }
-#construction p, #trailers p {
+#construction p, #trailers p, #lifts p {
     font-weight: 700;
 }
-#construction-items, #trailers-items {
+#construction-items, #trailers-items, #lifts-items {
     max-width: 1000px;
 }
-#construction-items .col-3, #trailers-items .col-3 {
+#construction-items .col-3, #trailers-items .col-3, #lifts-items .col-3 {
     padding: 0;
 }
-#construction-items img, #trailers-items  img {
+#construction-items img, #trailers-items img, #lifts-items img  {
     width: 100%;
 }
 .item-details {
