@@ -137,6 +137,7 @@ main {
     margin-top: -200px;
     margin-left: 150px;
     max-width: 1000px;
+    transition: .5s ease all;
 }
 #col-content, #footer-content {
     max-width: 1400px;
@@ -146,10 +147,10 @@ main {
     float: left;
     background: #fff;
     padding: 50px 20px 35px;
-    min-height: 200px;
+    min-height: 205px;
 }
 .col-3:nth-child(2) {
-    background: #f9fafb;
+    background: #ff0;
 }
 .col-3 p {
     max-width: 360px;
@@ -250,4 +251,60 @@ footer p a:hover, footer p a:active, footer p a:focus {
     outline: none;
     box-shadow: inset #a41e22 0px -4px 0px 0px;
     color: #a41e22;
+}
+@media screen and (max-width: 1104px) {
+    .col-3 {
+        min-height: 245px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #opening img {
+        margin-top: -170px;
+    }
+}
+@media screen and (max-width: 915px) {
+    #opening img {
+        margin-top: -135px;
+        margin-left: 115px;
+    }
+    .col-3 {
+        min-height: 300px;
+    }
+}
+@media screen and (max-width: 820px) {
+    #opening img {
+        margin-top: -100px;
+    }
+    .col-3 {
+        width: 100%;
+        height: auto;
+        min-height: inherit;
+    }
+}
+@media screen and (max-width: 745px) {
+    #opening img {
+        margin-top: -75px;
+    }
+    #contact-info {
+        width: 100%;
+    }
+    #contact-form {
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 645px) {
+    #opening img {
+        margin-top: -50px;
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 524px) {
+    #opening img {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    #contact-form .col-2 {
+        width: 100%;
+    }
 }
