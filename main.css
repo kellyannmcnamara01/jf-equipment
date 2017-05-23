@@ -102,6 +102,7 @@ main {
 #opening {
     background: #f1f3f4;
     height: 100vh;
+    max-height: 795px;
     min-height: 650px;
 }
 #opening h2 {
@@ -123,8 +124,8 @@ main {
     margin-left: 150px;
     max-width: 1000px;
 }
-#three-callouts {
-
+#col-content, #footer-content {
+    max-width: 1400px;
 }
 .col-3 {
     width: 33.333%;
