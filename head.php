@@ -14,11 +14,9 @@
 <body>
 <aside id="sidebar">
     <div id="nav-logo">
-        <div id="logo-trans">
-            <img src="opt-imgs/jf-logo-2.svg" width="35" id="logo-icon">
-        </div>
-        <div id="logo-white">
-            <img src="opt-imgs/jf-logo-3.svg" width="100" id="wordmark" style="display: none">
+        <img src="opt-imgs/jf-logo-2.svg" width="35" id="logo-icon">
+        <div id="wordmark" style="display: none">
+            <img src="opt-imgs/jf-logo-3.svg" width="100">
         </div>
         <h1>J&amp;F Equipment Sales</h1>
     </div>
