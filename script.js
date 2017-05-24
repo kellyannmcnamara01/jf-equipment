@@ -6,7 +6,7 @@ $(document).ready(function() {
         //toggle display for the menu links
         $('#nav-links').slideToggle();
         $('img').toggle();
-        var toggleWidth = $('#sidebar').width() == 165 ? "90px" : "165px";
+        var toggleWidth = $('#sidebar').width() == 175 ? "90px" : "175px";
         $('#sidebar').animate({ width: toggleWidth });
 
         //$(this).css('background-color', 'white');

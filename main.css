@@ -360,6 +360,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
 }
 
 /* =============== 00. Equipment Sales Page =============== */
+
 #construction, #trailers, #lifts {
     background-image: url("opt-imgs/construction-bg.png");
     background-size: auto;
@@ -421,10 +422,30 @@ footer p a:hover, footer p a:active, footer p a:focus {
     #three-callouts .col-3 {
         min-height: 245px;
     }
+    #family-owned, #customer {
+        padding: 115px 50px 55px;
+    }
+    #personal {
+        padding: 185px 50px 65px;
+    }
 }
 @media screen and (max-width: 1024px) {
     #opening img {
         margin-top: -170px;
+    }
+    #family-owned, #personal, #customer {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #family-owned {
+        background-size: 75%;
+    }
+    #personal {
+        background-size: 40%;
+        padding: 75px 50px 65px;
+    }
+    #customer {
+        background-size: 50%;
     }
 }
 @media screen and (max-width: 915px) {
@@ -434,6 +455,16 @@ footer p a:hover, footer p a:active, footer p a:focus {
     }
     #three-callouts .col-3 {
         min-height: 300px;
+    }
+    #family-owned {
+        background-size: 60%;
+    }
+    #personal {
+        background-size: 35%;
+        padding: 75px 50px 65px;
+    }
+    #customer {
+        background-size: 45%;
     }
 }
 @media screen and (max-width: 820px) {
@@ -445,10 +476,29 @@ footer p a:hover, footer p a:active, footer p a:focus {
         height: auto;
         min-height: inherit;
     }
+    #family-owned {
+        background-size: 60%;
+        background-position: top right;
+    }
+    #personal {
+        background-size: 35%;
+        background-position: top right;
+        padding: 75px 50px 65px;
+    }
+    #personal h2, #personal p {
+        margin-left: 0px;
+    }
+    #customer {
+        background-position: right;
+        background-size: 45%;
+    }
 }
 @media screen and (max-width: 745px) {
     #opening img {
         margin-top: -75px;
+    }
+    #customer {
+        background-position: top right;
     }
     #contact-info {
         width: 100%;
@@ -463,13 +513,43 @@ footer p a:hover, footer p a:active, footer p a:focus {
         margin-top: -50px;
         margin-left: 90px;
     }
+    #family-owned, #customer {
+        padding: 75px 30px 55px;
+    }
+    #personal {
+        padding: 125px 30px 65px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #family-owned, #customer, #personal {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
 }
 @media screen and (max-width: 524px) {
+    h2 {
+        font-size: 3em;
+    }
     #opening img {
         margin-top: 0px;
         margin-left: 50px;
     }
+    #family-owned {
+        background-size: 75%;
+    }
+    #personal {
+        background-size: 50%;
+    }
+    #customer {
+        background-size: 75%;
+    }
     #contact-form .col-2 {
         width: 100%;
+    }
+}
+@media screen and (max-width: 475px) {
+    #family-owned, #customer, #personal {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
