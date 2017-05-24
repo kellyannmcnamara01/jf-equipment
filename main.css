@@ -52,27 +52,19 @@ body {
     margin: 0 auto;
     font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
     text-rendering: geometricPrecision;
+    position: relative;
 }
 .clear {
     float: none;
     clear: both;
 }
-#sidebar {
-    float: left;
-    height: 100vh;
-    width: 160px;
-    position: fixed;
-}
-#sidebar h1 {
-    font-size: .5em;
-    color: #fff;
-}
 main {
     margin: 0 auto;
     position: relative;
     float: left;
-    width: calc(100vw - 160px);
-    margin-left: 160px;
+    /*width: calc(100vw - 160px);*/
+    width: 100%;
+    /*margin-left: 160px;*/
     background: #f1f3f4;
 }
 .wrapper {
@@ -106,14 +98,29 @@ p {
 }
 /* =============== 02. Nav =============== */
 
+#sidebar {
+    /*float: left;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 140px;
+    position: fixed;
+    z-index: 10000;
+}
+#sidebar h1 {
+    font-size: .5em;
+    color: #fff;
+}
 #nav-logo {
     background: #fff;
     text-align: center;
-    padding: 45px 25px;
+    padding: 30px 20px;
 }
 #nav-links {
     background: #231f20;
-    height: calc(100vh - 166px);
+    height: calc(100vh - 136px);
+    display: none;
 }
 #nav-links ul {
     list-style: none;
@@ -161,6 +168,7 @@ p {
     height: 100vh;
     max-height: 795px;
     min-height: 650px;
+    padding-left: 100px;
 }
 #opening h2 {
     color: #231f20;
@@ -180,9 +188,11 @@ p {
 }
 
 /* =============== 04. Home Page Callouts =============== */
-
+#three-callouts {
+    background: #fff;
+}
 #col-content {
-    max-width: 1400px;
+    max-width: 1000px;
 }
 #three-callouts .col-3 {
     min-height: 205px;

@@ -14,9 +14,7 @@
 <body>
 <aside id="sidebar">
     <div id="nav-logo">
-        <a href="index.php">
-            <img src="opt-imgs/jf-logo.svg" width="100">
-        </a>
+        <img src="opt-imgs/jf-logo.svg" width="100">
         <h1>J&amp;F Equipment Sales</h1>
     </div>
     <nav>
@@ -25,7 +23,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="equipment.php">Used Equipment</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact-info" id="contact-link">Contact</a></li>
             </ul>
             <div id="nav-social">
                 <a href="" target="_blank">
