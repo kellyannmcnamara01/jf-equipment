@@ -4,7 +4,6 @@
     <list default="true" id="c777f935-706c-4215-a729-67363634ed46" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,10 +55,9 @@
       <file leaf-file-name="equipment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/equipment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="210" column="305" lean-forward="true" selection-start-line="210" selection-start-column="305" selection-end-line="210" selection-end-column="305" />
+            <state relative-caret-position="300">
+              <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
               <folding>
-                <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
@@ -85,8 +83,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="549" column="32" lean-forward="false" selection-start-line="549" selection-start-column="32" selection-end-line="549" selection-end-column="32" />
+            <state relative-caret-position="258">
+              <caret line="593" column="21" lean-forward="false" selection-start-line="593" selection-start-column="21" selection-end-line="593" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -132,13 +130,16 @@
       <find>About Page</find>
       <find>.col</find>
       <find>.col-3</find>
-      <find>arro</find>
       <find>.item-details</find>
       <find>construction-items</find>
       <find>display</find>
       <find>col-content</find>
       <find>nav-logo</find>
       <find>#sidebar</find>
+      <find>#construction, #trailers, #lifts</find>
+      <find>arror</find>
+      <find>arro</find>
+      <find>.item-details:nth-child(odd)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,10 +152,10 @@
         <option value="$PROJECT_DIR$/index copy.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/about.php" />
-        <option value="$PROJECT_DIR$/equipment.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/head.php" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/equipment.php" />
         <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
@@ -281,12 +282,12 @@
       <updated>1495393662412</updated>
       <workItem from="1495393664737" duration="1022000" />
       <workItem from="1495396920961" duration="11767000" />
-      <workItem from="1495559399401" duration="18114000" />
+      <workItem from="1495559399401" duration="20062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30903000" />
+    <option name="totallyTimeSpent" value="32851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -378,33 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/equipment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="210" column="305" lean-forward="true" selection-start-line="210" selection-start-column="305" selection-end-line="210" selection-end-column="305" />
-          <folding>
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -433,10 +407,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/equipment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#1;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#2;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#3;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#4;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#5;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="549" column="32" lean-forward="false" selection-start-line="549" selection-start-column="32" selection-end-line="549" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="593" column="21" lean-forward="false" selection-start-line="593" selection-start-column="21" selection-end-line="593" selection-end-column="21" />
           <folding />
         </state>
       </provider>

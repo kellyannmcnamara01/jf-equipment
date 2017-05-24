@@ -367,18 +367,18 @@ footer p a:hover, footer p a:active, footer p a:focus {
     background-repeat: no-repeat;
     background-position: right;
     max-width: 960px;
-    padding: 200px 0px 100px;
+    padding: 200px 100px 100px;
 }
 #trailers {
     background-image: url("opt-imgs/trailers-bg.png");
     background-position: bottom right;
-    padding: 200px 0px 135px;
+    padding: 200px 100px 135px;
     margin-bottom: -40px;
 }
 #lifts {
     background-image: url("opt-imgs/lifting-bg.png");
     background-position: 90% bottom;
-    padding: 200px 0px 100px;
+    padding: 200px 100px 100px;
 }
 #construction h2, #construction p, #trailers h2, #trailers p, #lifts h2, #lifts p {
     max-width: 400px;
@@ -394,13 +394,15 @@ footer p a:hover, footer p a:active, footer p a:focus {
     padding: 0;
 }
 #construction-items img, #trailers-items img, #lifts-items img  {
+    height: 100%;
     width: 100%;
 }
 .item-details {
     padding: 30px 20px;
-    height: 253px;
+    /*height: 253px;*/
     position: relative;
 }
+
 .items-arrow-odd {
     position: absolute;
     /*bottom: 253px;*/
@@ -412,7 +414,7 @@ footer p a:hover, footer p a:active, footer p a:focus {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     position: absolute;
-    top: 253px;
+    bottom: -15px;
     left: calc(50% - 23px);
 }
 
@@ -507,6 +509,32 @@ footer p a:hover, footer p a:active, footer p a:focus {
         width: 100%;
         padding-top: 40px;
     }
+    #construction-items .col-3, #trailers-items .col-3, #lifts-items .col-3 {
+        width: 100%;
+        display: flex;
+    }
+    #construction-items img, #trailers-items img, #lifts-items img {
+        width: 50%;
+    }
+    .item-details {
+        width: 50%;
+    }
+    .items-arrow-odd {
+        position: absolute;
+        -ms-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        top: calc(50% - 23px);
+        left: calc(0% - 30px);
+    }
+    .items-arrow-even {
+        -ms-transform: rotate(-270deg);
+        -webkit-transform: rotate(-270deg);
+        transform: rotate(-270deg);
+        position: absolute;
+        left: calc(100% - 16px);
+        bottom: calc(50% - 23px);
+    }
 }
 @media screen and (max-width: 645px) {
     #opening img {
@@ -552,4 +580,36 @@ footer p a:hover, footer p a:active, footer p a:focus {
         margin-left: 25px;
         margin-right: 25px;
     }
+    #construction-items .col-3, #trailers-items .col-3, #lifts-items .col-3 {
+        width: 100%;
+        display: block;
+    }
+    #construction-items img, #trailers-items img, #lifts-items img {
+        width: 100%;
+    }
+    .item-details {
+        width: 100%;
+    }
+    .item-details h3, .item-details p {
+        max-width: 300px;
+    }
+    .items-arrow-odd {
+        position: absolute;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        top: -16px;
+        left: calc(50% - 23px);
+    }
+    .items-arrow-even {
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        position: absolute;
+        bottom: -15px;
+        left: calc(50% - 23px);
+    }
+    /*.item-details:nth-child(odd) {
+        background: #ecedee;
+    }*/
 }
